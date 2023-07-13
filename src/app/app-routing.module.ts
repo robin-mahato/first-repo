@@ -7,7 +7,8 @@ import { ServicesComponent } from './pages/services/services.component';
 import { BounceComponent } from './pages/bounce/bounce.component';
 import { GradientComponent } from './pages/gradient/gradient.component';
 import { AnimationComponent } from './pages/animation/animation.component';
-import { JavascriptComponent } from './pages/javascript/javascript.component';
+
+import { BasictsComponent } from './pages/basicts/basicts.component';
 
 const routes: Routes = [
   {
@@ -33,7 +34,7 @@ const routes: Routes = [
     path:"animation",component:AnimationComponent
   },
 {
-    path:"javascript",component:JavascriptComponent
+    path:"basicts",component:BasictsComponent
   }
 ];
 

@@ -11,7 +11,8 @@ import { ServicesComponent } from './pages/services/services.component';
 import { BounceComponent } from './pages/bounce/bounce.component';
 import { GradientComponent } from './pages/gradient/gradient.component';
 import { AnimationComponent } from './pages/animation/animation.component';
-import { JavascriptComponent } from './pages/javascript/javascript.component';
+
+import { BasictsComponent } from './pages/basicts/basicts.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { JavascriptComponent } from './pages/javascript/javascript.component';
     BounceComponent,
     GradientComponent,
     AnimationComponent,
-    JavascriptComponent,
+   
+    BasictsComponent,
     
   
   ],

@@ -1,0 +1,8 @@
+
+<div>{{name}}</div>
+<div *ng ngIf="name">name is true</div>
+<div class="normal_class">normal class</div>
+<div class="row {{email}}"> variable class</div>
+
+<div class="col {{name ? 'class_true':'class_false'}}">class binding </div>
+<div [class]="'row'+ email">data binding</div>
