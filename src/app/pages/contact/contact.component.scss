@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+}
+.bg{
+    width:80vw;
+    height:80vh;
+    border:3px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black                                                                                                                                                                                                                                                                 ;
+   
+
+}
+.text{
+    font-size: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border:2px solid black;
+   position: fixed;
+   margin-bottom: 20vh;
+   color:white;
+   z-index: -1;
+mix-blend-mode: screen;
+   
+
+}
+.animateddiv{
+width:50vw;
+height:60vh;
+border:3px solid black;
+background-color: aqua;
+
+mix-blend-mode: screen;
+animation: robin 3s linear ;
+
+}
+ul{
+    display:flex;
+    //height:50%;
+}
+ul li{
+    height:13vh;
+ 
+    font-size: 120px;
+    font-weight:100;
+    list-style: none;
+    margin-top:60px;
+    animation: text 2s linear  ;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes text{
+    0%{transform:translateY(-120px)translateX(120px) ;opacity: 0;}
+     40%{transform: translateY(0px) translateX(0px) ;  opacity: 1;}
+     60%{transform: translateY(0px) translateX(0px) ;  opacity: 1;}
+     100%{transform:translateY(reverse) ;opacity: 0;}
+    
+   
+}
+.good ul li:nth-child(1){
+    animation-delay:0.5s;
+}
+.good ul li:nth-child(2){
+    animation-delay:0.7s;
+}
+.good ul li:nth-child(3){
+    animation-delay:0.8s;
+}
+.good ul li:nth-child(4){
+    animation-delay:0.9s;
+}
+
+.morning{
+    display: flex;
+}
+
+.morning span{
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+    animation: morning 0.70s linear forward  ;
+}
+@keyframes morning{
+    0%{transform:translateX( -120px);
+    
+    }
+   100%{transform: translateX(120px);}
+}
+.morning span:nth-child(1){
+    animation-delay:0.20s;
+}
+.morning span:nth-child(2){
+    animation-delay:0.40s;
+}
+.morning span:nth-child(3){
+    animation-delay:0.60s;
+}.morning span:nth-child(4){
+    animation-delay:0.80s;
+}
+.morning span:nth-child(5){
+    animation-delay:1.00s;
+}
+.morning span :nth-child(6){
+    animation-delay:01.20s;
+} 
+.morning span:nth-child(7){
+    animation-delay:1.40s;
+}
+
