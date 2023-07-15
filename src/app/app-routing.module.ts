@@ -9,6 +9,7 @@ import { GradientComponent } from './pages/gradient/gradient.component';
 import { AnimationComponent } from './pages/animation/animation.component';
 
 import { BasictsComponent } from './pages/basicts/basicts.component';
+import { PracticetsComponent } from './pages/practicets/practicets.component';
 
 const routes: Routes = [
   {
@@ -35,6 +36,9 @@ const routes: Routes = [
   },
 {
     path:"basicts",component:BasictsComponent
+  },
+  {
+    path:"practicets",component:PracticetsComponent
   }
 ];
 

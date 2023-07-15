@@ -1,0 +1,30 @@
+div{
+    width:30vw;
+    height:30vh;
+    border:2px solid red; 
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.a{
+    width:40vw;
+    height:30vh;
+    border:2px solid red;  
+    border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+}  
+button{
+    padding: 10px;
+    background-color: lightcoral;
+    border-radius: 20px;
+}
+body{
+    width:100vw;
+    height:100vh;
+   
+}

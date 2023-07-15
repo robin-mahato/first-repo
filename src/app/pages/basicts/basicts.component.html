@@ -1,8 +1,18 @@
 
-<div>{{name}}</div>
-<div *ng ngIf="name">name is true</div>
-<div class="normal_class">normal class</div>
-<div class="row {{email}}"> variable class</div>
 
-<div class="col {{name ? 'class_true':'class_false'}}">class binding </div>
-<div [class]="'row'+ email">data binding</div>
+<!-- <div id="text" >{{name}}</div> -->
+<!-- <div *ng ngIf="name">name is true</div> -->
+<!-- <div class="normal_class">normal class</div> -->
+<!-- <div class="row {{email}}"> variable class</div> -->
+
+   
+
+<!-- <div class="col {{name ? 'class_true':'class_false'}}">class binding </div> -->
+<!-- <div [class]="'row'+ email">data binding</div> -->
+<!-- <button (click)="valueChange()">ok</button> -->
+
+<div [style]="'color:'+ color+' background-color:'+bgcolor ">{{text}}</div>
+<button (click)="changeColor()">Change Color</button>
+<div class="a" [style]="'color:'+ color1+'; background-color:'+bgcolor1 ">{{text}}</div>
+<button (click)="moreColor()">Change Color</button>
+<div (click)="changeText()">{{text}}</div>

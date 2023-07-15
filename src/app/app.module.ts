@@ -13,6 +13,7 @@ import { GradientComponent } from './pages/gradient/gradient.component';
 import { AnimationComponent } from './pages/animation/animation.component';
 
 import { BasictsComponent } from './pages/basicts/basicts.component';
+import { PracticetsComponent } from './pages/practicets/practicets.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { BasictsComponent } from './pages/basicts/basicts.component';
     AnimationComponent,
    
     BasictsComponent,
+         PracticetsComponent,
     
   
   ],
